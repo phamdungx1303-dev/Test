@@ -7,7 +7,7 @@ namespace MauiApp1.ViewModel;
 public partial class DetailViewModel : ObservableObject
 {
     [ObservableProperty]
-    string text;
+    string text = string.Empty;
 
     [RelayCommand]
     async Task GoBack()
